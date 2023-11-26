@@ -1,0 +1,1 @@
+ctypes.windll.shcore.SetProcessDpiAwareness(1)
