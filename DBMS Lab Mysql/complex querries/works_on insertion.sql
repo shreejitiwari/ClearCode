@@ -1,0 +1,15 @@
+insert into works_on values ('123456789', 1, 32.5);
+insert into works_on values ('123456789', 2, 7.5);
+insert into works_on values ('666884444', 3, 40.0);
+insert into works_on values ('453453453', 1, 20.0);
+INSERT into works_on values ('453453453', 2, 20.0);
+insert into works_on values ('333445555', 2, 10.0);
+insert into works_on values ('333445555', 3, 10.0);
+insert into works_on values ('333445555', 10, 10.0);
+insert into works_on values ('333445555', 20, 10.0);
+insert into works_on values ('999887777', 30, 30.0);
+insert into works_on values ('999887777', 10, 10.0);
+insert into works_on values ('987987987', 10, 35.0);
+insert into works_on values ('987987987', 30, 5.0);
+insert into works_on values ('987654321', 30, 20.0);
+insert into works_on values ('987654321', 20, 15.0);
