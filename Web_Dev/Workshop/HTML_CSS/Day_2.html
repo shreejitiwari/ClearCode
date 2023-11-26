@@ -1,0 +1,197 @@
+<html>
+    <head>
+        <title>Day 2</title>        
+    </head>
+
+    <body background="wallpaperflare.com_wallpaper(5).jpg">
+
+        
+
+        <!--   TABLES  -->
+        <h3>Tables</h3>
+        <table border="2" align="center" width="600" height="300" cellspacing="2"  style="font-family:cursive;">
+            <caption align="center" style="position: sticky; font-size: 30;"><b>Books Data</b></caption>
+
+            <colgroup>
+                <col span = "2" bgcolor = "#C969EB">
+            </colgroup>
+
+            <colgroup>
+                <col span = "1" bgcolor="yellow"
+            </colgroup>
+
+            
+
+            <thead bgcolor = "#EB96BD">
+                <th align="center">S.no</th>
+                <th>Title</th>
+                <th>Price</th>
+            </thead>
+
+            <!-- <tbody bgcolor = "#B4EBE3"  align="center"> -->
+
+            <tbody  align="center">
+                <tr>
+                    <td>1</td>
+                    <td>C Programming</td>
+                    <td>300</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Let us C++</td>
+                    <td>250</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Python Geeks</td>
+                    <td rowspan="2">380</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Let us Java</td>
+                    <!-- <td>50</td> -->
+                    
+                </tr>
+
+            </tbody>
+
+            <tfoot bgcolor = "#EBE1B2" align="center">
+                <!-- <tfoot align="center"> -->
+                <tr>
+                    <td colspan="2">Book Information</td>
+                    <td><button><a href="https://www.flipkart.com/">Buy</a></button></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3"><button>Add to cart</button></td>
+                </tr>
+                
+            </tfoot>
+
+
+        </table>
+
+
+        <br>
+        <p style="font-family:Arial, Helvetica, sans-serif;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aperiam ratione expedita cupiditate ipsum pariatur ducimus quidem minus rerum, labore voluptas vel ex unde, earum aliquid eaque eos ea id.
+        </p>
+
+
+
+        <!-- UNORDERED LISTS -->
+        <hr>
+        <br>
+        <h3>Un-Ordered list</h3>
+        <ul type="square">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+
+        <!-- Ordered list -->
+        <hr>
+        <br>
+        <h3>Ordered list</h3>
+        <ol start="5">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+
+        <ol type="i">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+
+        <!-- Description list -->
+
+        <hr>
+        <br>
+        <h3>Description List</h3>
+        <br>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>Yummy and tasty</dd>
+        </dl>
+
+        <dl>
+            <dt>Milk</dt>
+            <dd>White and sweet</dd>        
+        </dl>        
+
+        <!-- Nesting in list -->
+
+        <hr>
+        <h3>Nesting in lists</h3>
+
+        <dl>
+            <dt><b><u>Drinks</u></b></dt>
+            <ul>
+                <li><a href="https://www.cafecoffeeday.com/" target="_blank">Coffee</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Tea" target="_blank">Tea</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Milk" target="_blank">Milk</a></li>                
+                <li><code><s>Code tag</s></code></li>
+                <li><a href="Days.html"><s>Days</s></a></li>
+            </ul>
+        </dl>
+
+
+        <!-- Image tags -->
+        <br>
+        <hr>
+        <h3>Image tag</h3>
+        <p>In another folder</p>
+        <br>
+        <img src="E:\Pictures\Friends\Shreeji.jpg" alt="Shreeji image in another forlder" height="300" width="250"/>
+        <br>
+        <p>In same folder</p>
+        <img src="Shreeji.jpg" height="300" width="250"/>
+
+
+        <!-- Adding maps -->
+        <br>
+        <hr>
+        <h3>Adding Google Maps</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.6594097211787!2d78.22581477510276!3d26.272715177034502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c0e647bece07%3A0xd848338a0d6a5393!2sAmity%20University%2C%20Gwalior!5e0!3m2!1sen!2sin!4v1682407214134!5m2!1sen!2sin" width="600" height="450" style="border:5;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        <!-- Adding Audio -->
+        <br>
+        <hr>
+        <h3>Adding Audio</h3>
+        <!-- local audio -->
+        <p>Local Audio</p>
+        <audio controls>
+            <source src = "Jarico-Island-vlog-music.mp3" >
+        </audio>
+
+        <!-- spotify embed audio -->
+        <p>Spotify Audio</p>
+        
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1WkfZqRCQyJXr2RM6MgwWH?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        
+
+        <!-- Adding Video -->
+        <br>
+        <hr>
+        <h3>Adding Video</h3>
+
+        <p>From YouTube</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MkcfB7S4fq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+        <p>Local</p>
+        <video width="400" height="300" controls>
+            <source src="final.mp4">
+        </video>
+
+
+    </body>
+
+
+</html>

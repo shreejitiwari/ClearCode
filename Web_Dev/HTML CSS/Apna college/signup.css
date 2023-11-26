@@ -1,0 +1,98 @@
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/741/22/369/digital-digital-art-artwork-fantasy-art-landscape-hd-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+
+fieldset{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-top: 4vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-bottom: auto;
+    padding-bottom: 4vw;
+    border-radius: 70px;
+    border: 2px solid white;
+}
+
+h1{
+    font-size: 3vw;
+    color: antiquewhite;
+}
+
+#unBox{
+    text-align: center;
+    height: 2.2vw;
+    border-radius: 30px;
+    width: 20vw;
+}
+
+#email{
+    height: 2.2vw;
+    text-align: center;
+    border-radius: 30px;
+    width: 20vw;
+
+
+}
+
+#passBox{
+    text-align: center;
+    height: 2.2vw;
+    border-radius: 30px;
+    width: 20vw;
+}
+
+#otp{
+    height: 2.2vw;
+    text-align: center;
+    border-radius: 30px;
+    width: 20vw;
+}
+
+#button{
+    background-color:rgba(206, 251, 7, 0.97);
+    /* color: white; */
+    height: 3vw;
+    width: 23vw;
+    border-radius: 30px;
+    font-size: 1.3vw;
+}
+
+#signup_options{
+    font-size: large;
+}
+
+#linkedin{
+    height: 2vw;
+    padding: 1px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    cursor:pointer;
+}
+
+#github{
+    background-color: white;
+    height: 2vw;
+    margin-left: 1vw;
+    border-radius: 50%;
+    padding: 2px;
+    margin-bottom: 4px;
+    cursor:pointer;
+}
+
+#google{
+    height: 2vw;
+    margin-left: 1vw;
+    margin-bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+    cursor:pointer;
+}

@@ -1,0 +1,26 @@
+h1
+{
+    color: rgb(183, 226, 43);
+}
+
+#t_color
+{
+    color: rgb(225, 121, 47);
+}
+
+#t_style
+{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.col
+{
+    color: royalblue;
+}
+
+.style
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,120 @@
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/422/484/860/digital-digital-art-artwork-illustration-drawing-hd-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+
+fieldset{
+    /* background-color: aquamarine; */
+    /* filter: blur(8px);*/
+    /* -webkit-filter: blur(8px) ; */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    /* backdrop-filter: blur(8px); */
+    margin-top: 5vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-bottom: auto;
+    padding-bottom: 4vw;
+    border-radius: 70px;
+
+    border: 2px solid white;
+}
+
+h1{
+    font-size: 3vw;
+}
+
+#un{
+    font-size: 1.3vw;
+}
+
+#unBox{
+    text-align: center;
+    padding-top: 1%;
+    height: 1.5vw;
+    border-radius: 15px;
+    width: 20vw;
+}
+
+#passLabel{
+    font-size: 1.3vw;
+    margin-left: 1%;
+}
+
+#passBox{
+    text-align: center;
+    padding-top: 1%;
+    height: 1.5vw;
+    border-radius: 15px;
+    width: 20vw;
+}
+
+#button{
+    /* margin-top: 0.5vw; */
+    background-color: white;
+    /* margin-bottom: ; */
+    height: 3vw;
+    width: 20vw;
+    border-radius: 30px;
+    font-size: 1.3vw;
+}
+
+#forgot{
+    color: antiquewhite;
+    font-size: small;
+    margin-left: 15vw;
+    margin-top: 0px;
+}
+
+#remember{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    height: 1vw;
+    width: 1vw;
+    font-size: 1vw;
+}
+
+
+#lw{
+    font-size: large;
+}
+
+#linkedin{
+    height: 2vw;
+    padding: 1px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    cursor:pointer;
+}
+
+#github{
+    background-color: white;
+    height: 2vw;
+    margin-left: 1vw;
+    border-radius: 50%;
+    padding: 2px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+#google{
+    height: 2vw;
+    margin-left: 1vw;
+    margin-bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+
+#signup{
+    margin-top: 500vw;
+    color: antiquewhite;
+    
+}

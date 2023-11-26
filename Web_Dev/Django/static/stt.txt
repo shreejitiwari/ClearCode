@@ -1,0 +1,10 @@
+October 21, 2021 - 14:56:04
+Django version 3.2.8, using settings 'ProtoS_Web.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Not Found: /static
+[21/Oct/2021 14:56:16] "GET /static HTTP/1.1" 404 2767
+Not Found: /home
+[21/Oct/2021 14:56:22] "GET /home HTTP/1.1" 404 2761
+[21/Oct/2021 14:56:29] "GET /services HTTP/1.1" 200 28
+[21/Oct/2021 14:56:37] "GET /contact HTTP/1.1" 200 27
