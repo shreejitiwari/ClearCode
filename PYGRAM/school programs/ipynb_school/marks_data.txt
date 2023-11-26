@@ -1,0 +1,95 @@
+abc==============================
+
+Name : Ansh 	 Roll No. : 1 
+
+ Marks in subject 1 : 35 
+ Marks in subject 2 : 37 
+ Marks in subject 3 : 24    
+ Maxmimum marks(per subject) : 40 
+
+ Total Marks : 96 
+ Percentage : 80.0 
+
+=================================
+
+
+
+=================================
+
+Name : Abhi 	 Roll No. : 2 
+
+ Marks in subject 1 : 30 
+ Marks in subject 2 : 39 
+ Marks in subject 3 : 32    
+ Maxmimum marks(per subject) : 40 
+
+ Total Marks : 101 
+ Percentage : 84.17 
+
+=================================
+
+
+
+=================================
+
+Name : Bosh 	 Roll No. : 3 
+
+ Marks in subject 1 : 39 
+ Marks in subject 2 : 38 
+ Marks in subject 3 : 20    
+ Maxmimum marks(per subject) : 40 
+
+ Total Marks : 97 
+ Percentage : 80.83
+
+=================================
+
+
+
+=================================
+
+Name : Cab 	 Roll No. : 4 
+
+ Marks in subject 1 : 33 
+ Marks in subject 2 : 30 
+ Marks in subject 3 : 37    
+ Maxmimum marks(per subject) : 40 
+
+ Total Marks : 100 
+ Percentage : 83.33 
+
+=================================
+
+
+
+=================================
+
+Name : Dob 	 Roll No. : 5 
+
+ Marks in subject 1 : 30 
+ Marks in subject 2 : 25 
+ Marks in subject 3 : 32    
+ Maxmimum marks(per subject) : 40 
+
+ Total Marks : 87 
+ Percentage : 72.5 
+
+=================================
+
+
+
+=================================
+
+Name : Eita 	 Roll No. : 6 
+
+ Marks in subject 1 : 30 
+ Marks in subject 2 : 34 
+ Marks in subject 3 : 32    
+ Maxmimum marks(per subject) : 40 
+
+ Total Marks : 96 
+ Percentage : 80.0 
+
+=================================
+
+

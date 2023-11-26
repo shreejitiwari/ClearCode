@@ -1,0 +1,9 @@
+Roll_no,Name,Class,Percentage
+1,Adidas,8,89%
+2,Boss baby,1,95%
+3,Candy,10,85%
+4,Dogecoin,12,100%
+1,Shreeji,12,98%
+12,Twelfth,12,93%
+9,Oxymoron,10,95
+15,Bubble,12,25
