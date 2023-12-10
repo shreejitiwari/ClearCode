@@ -24,7 +24,7 @@ int main()
     cout<<"Enter array size : ";
     cin>>size;
     array = new int[size]; 
-    cout<<"Enter array elements : ";
+    cout<<"Enter sorted array elements : ";
     for (int i=0; i<size; i++)
     {
         cin>>array[i];
