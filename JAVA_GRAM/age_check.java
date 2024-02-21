@@ -15,6 +15,7 @@ public class age_check {
         else
             System.out.println("Tum purane ho chuke ho, tumhari jagah mai lunga");
 
+
         input.close();
 
     }

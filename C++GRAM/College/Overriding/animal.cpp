@@ -24,11 +24,16 @@ class Dog : public Animal {
     void animalSound() {
     cout << "The dog says: bow wow \n";
     }
+
+    void myname()
+    {
+      cout<<"I am boboi"<<endl;
+    }
 };
 
 int main() {
-//   Animal myAnimal;
-//   Pig myPig;
+    Pig myPig;
+    Animal *myAnimal = &myPig;
 
     Animal * animal, * animal2;
     Dog myDog;
@@ -36,8 +41,10 @@ int main() {
     animal = &(myDog);
     animal->animalSound();
     animal2->animalSound();
-//   myAnimal.animalSound();
-//   myPig.animalSound();
+    myDog.myname();
+
+
     myDog.Animal::animalSound();
+    myPig.animalSound();
     return 0;
 }
