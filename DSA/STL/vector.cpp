@@ -8,7 +8,7 @@ int main()
     vector<int>::reverse_iterator last = v.rbegin();
     // last++;
     cout<<"Last : "<<(*last)<<endl;
-
+    vector<int> v3 (2,10);
     /*
 
     * end and rend points to the memory address after the last element, 
@@ -35,6 +35,8 @@ int main()
     cout<<"v.size() : "<<v.size()<<endl;
     cout<<"v.max_size() : "<<v.max_size()<<endl;
     cout<<"v.empty() : "<<v.empty()<<endl;
+    // cout<<"v.pop_back() : "<<v.pop_back()<<endl; //pop_back does not return anything
+    // cout<<"v.find(23) : "<<v.find(23)<<endl; //find does not work with vector
     //cout<<"v.begin() : "<<v.begin()<<endl;
 
     
@@ -42,10 +44,21 @@ int main()
     vector<pair<int,int>> v1 = {{1,2},{3,4},{5,6}};
     v1.emplace_back(12,34);
     cout<<v1.back().first<<" "<<v1.back().second<<endl;
+    auto it = v.begin();
+    v.insert(v.begin(),10);
 
+    // vector<auto> vc = {1,4,5};
+    // cout<<"vc[0] = "<<vc[0];
 
-    vector vc = {1,4,5};
-    cout<<"vc[0] = "<<vc[0];
-    
+    vector<vector<bool>> m(10,vector<bool>(0));
+    cout<<"Size of m : "<<m.size()<<"\nWith values"<<endl;
+    for (bool i : m)
+    {
+        for(bool j:i)
+        {
+            cout<<j<<", ";
+        }
+    }
+
     return 0;
 }
