@@ -1,4 +1,6 @@
 #include<iostream>
+#include<stack>
+#include<queue>
 using namespace std;
 
 int main()
@@ -25,5 +27,21 @@ int main()
      cout<<"s6 : "<<s6<<endl;
      cout<<"s7 : "<<s7<<endl;
     //  cout<<"s8 : "<<s8<<endl;
+    
+    queue<char> test_me;
+    for (char ch='a'; ch <= 'z'; ch++)
+    {
+        test_me.push(ch);
+    }
+
+    // cout<<test_me<<" : "<<test_me.size()<<endl;
+
+    int times = 10;
+    while (times--)
+    {
+        test_me.pop();
+    }
+    // cout<<test_me<<" : "<<test_me.size()<<endl;
+    
     return 0;
 }

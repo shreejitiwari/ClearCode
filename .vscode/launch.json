@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Button_not_clicking",
+      "request": "launch",
+      "mainClass": "Button_not_clicking",
+      "projectName": "ClearCode_d0590218"
+    },
+    {
+      "type": "java",
       "name": "static_block_var_method",
       "request": "launch",
       "mainClass": "static_block_var_method",
