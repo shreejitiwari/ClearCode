@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo "Searching using grep"
+opt1='y'
+while [ "$opt1" == 'y' ]
+do
+ echo "Enter thee pattern you want to search"
+ read pat
+ echo "OUTPUT of grep search"
+ for file in $*
+    do
+        echo "In file $file"
+        grep $pat $file
+        echo
+    done
+ echo "Do you want to enter another pattern for grep? (y/n)"
+ read opt1
+done
+
+exit 0
